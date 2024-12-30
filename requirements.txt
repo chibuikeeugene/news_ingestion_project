@@ -1,0 +1,7 @@
+feedparser
+requests
+psycopg2-binary
+boto3
+PyYAML
+prefect
+python-dotenv

@@ -1,0 +1,13 @@
+rss_url: "https://example.com/rss"
+news_api_url: "https://newsapi.org/v2/top-headlines?country=us"
+api_key: "news_api_key"
+postgres:
+  host: "postgres"
+  port: 5432
+  user: "eugene"
+  password: "eugene007"
+  database: "news"
+s3:
+  access_key: "your_access_key"
+  secret_key: "your_secret_key"
+  bucket_name: "your-bucket-name"
