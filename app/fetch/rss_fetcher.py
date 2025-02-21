@@ -12,11 +12,4 @@ def fetch_rss_feeds(url:HttpUrl) -> list[dict]:
     ]
     except ValidationError as e:
         print(e)
-    print(news)
     return news
-
-
-
-# testing the function
-# url =  "https://feeds.skynews.com/feeds/rss/technology.xml"
-# fetch_rss_feeds(url=url)
